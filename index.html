@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantikid AI: Education & Innovation</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="menu2" id="#menu2">
+        <div class="opt">
+            <a class="opt2">Home</a>
+            <a class="opt2"  href="#education" style="text-decoration: none; color: white;">Education</a>
+            <a class="opt2" href="video.html" style="text-decoration: none; color: white;">Videos</a>
+            <a class="opt2 show-popup-btn">Labs</a>
+            <a class="opt2"  href="#vision" style="text-decoration: none; color: white;">Vision</a>
+        </div>
+        <span class="close-btn" onclick="closeMenu()"  style="font-size: xxx-large;">&times;</span>
+    </div>
+    <header class="header">
+        <div class="container" id="topnav">
+            <div class="logo">Gen-1</div>
+            <nav class="navbar">
+
+                <div class="menu">
+                    <a href="#">Home</a>
+                    <a href="#education">Education</a>
+                    <a href="video.html">Videos</a>
+                    <a href="#" class="show-popup-btn">Labs</a>
+                    <a href="#vision">Vision</a>
+                </div>
+            </nav>
+            <div class="cta-buttons">
+                <button class="apply-btn" style="display: none;">Login</button>
+            </div>
+            <a href="javascript:void(0);" style="font-size:24px;" class="icon open-btn" onclick="openMenu()" id="menuToggle">&#9776;</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="Qk left.jpg" alt="left" class="left-img" />
+        <img src="Qk right.jpg" alt="right" class="right-img" />
+    </section>
+
+    <section class="hero2">
+        <div class="container">
+            <h1>"Empowering minds for innovative & transformational AI"</h1>
+            <p>Theme</p>
+        </div>
+    </section>
+
+    <!-- Topic Section -->
+    <section class="about">
+        <div class="container">
+            <h2>Depth Limited Search | Artificial Intelligence</h2>
+            <p>Topic of the Week</p>
+            <div class="stats">
+                <div id="topicvid">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tje0Y7J8q54?si=t4OTsvnzju1KcWDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section class="about blur" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <p>Unlock the power of AI with education section's learning resources >> NLP, Computer Vision, and Generative AI</p>
+            <div class="stats">
+                <a id="nlp" href="index7-nlp.html"><strong>Natural Language Processing</strong></a>
+                <a id="cv" href="index7-cv.html"><strong>Computer Vision</strong></a>
+                <a id="nn" href="index7-genai.html"><strong>Generative AI</strong></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs">
+        <div class="container">
+            <h2>Don't forget to check</h2>
+            <div class="program-list">
+                <a class="program-item" style="text-decoration: none;" href="https://mycodingnetwork.blogspot.com/">MyCodingNetwork</a>
+                <!-- <a class="program-item" style="text-decoration: none;" href="index6.html">Quizzes</a> -->
+                <a class="program-item" style="text-decoration: none;" href="https://apilabs.blogspot.com/">API Labs</a>
+                <a class="program-item" style="text-decoration: none;" href="video.html">Video Content</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="programs quizzer blur">
+        <div class="container">
+            <h2>The AI Quiz</h2>
+            <div class="program-list">
+                <p id="quiz-desc">Test your AI knowledge with this engaging quiz covering the fundamentals of Artificial Intelligence — from machine learning and neural networks to real-world applications. Whether you're a curious beginner or a tech-savvy enthusiast, see how well you really understand Artificial Intelligence. <strong>Try these 10 AI, ML & DL questions.</strong> </p>
+                <div class="program-item2"><img src="Quizzer_Board3.jpg" title="YouTube video player"></div>
+            </div>
+            <a class="program-item" style="text-decoration: none;" href="index6.html">Let's Start >>></a>
+        </div>
+    </section>
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+        <h2>Section in Progress</h2>
+        <p>We're making something brilliant. <strong>Stay tuned.</strong></p>
+        <button onclick="closePopup()">OK</button>
+        </div>
+    </div>
+
+
+    <div class="fixed-text">Beta Version</div>
+
+    
+    <section class="about" id="vision">
+        <div class="container">
+            <h2>My Vision</h2>
+            <p><strong>Message from the Founder</strong> </p>
+            <div class="stats founder">
+                <div class="message" style="pointer-events: none;">
+                    <p>Welcome to the beginning of something extraordinary.<br><br>
+                        As we launch this platform in its beta version, thank you for visiting the website. This is more than just a website — it’s the foundation of a long-term vision to revolutionize how the world engages with artificial intelligence.
+                        We're building with a multifaceted approach — combining research, application, education, and innovation — to ensure AI becomes not just smarter, but more accessible, ethical, and impactful across industries and communities. From practical tools to cutting-edge experiments, from collaborative knowledge to bold new ideas, this platform is designed to evolve continuously with the pulse of global AI development.<br><br>
+                        We’re just getting started. But the future we imagine — one where AI empowers and elevates humanity — is already in motion.<br><br>
+                        Thank you for believing in what’s coming.<br><br>
+                        Warm regards,<br>
+                        <strong>Alok Tripathi</strong><br>
+                        <strong>Founder, Quantikid AI</strong>
+                    </p> 
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- A2J Section -->
+    <section class="about blur">
+        <div class="container">
+            <h2>AI Labs</h2>
+            <p>Coming Soon...</p>
+            <div class="stats">
+                <div id="topicvid2" class="show-popup-btn"><img src="ai_labs.jpg" title="YouTube video player"></img></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="contact-info">
+                <p>&#169; Alok Tripathi 2025. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <footer id="contact">
+        <p>Quantikid AI | Education & Innovation</p>
+    </footer>
+
+</body>
+<script>
+        const popupOverlay = document.getElementById("popupOverlay");
+        const showPopupButtons = document.querySelectorAll(".show-popup-btn");
+
+        showPopupButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            popupOverlay.style.display = "flex";
+        });
+        });
+
+        function closePopup() {
+        popupOverlay.style.display = "none";
+        }
+
+        function openMenu() {
+            document.getElementById("#menu2").style.display = "flex";
+        }
+        function closeMenu() {
+            document.getElementById("#menu2").style.display = "none";
+        }
+
+        document.getElementById("menu2").classList.toggle("show");
+</script>
+</html>

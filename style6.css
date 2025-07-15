@@ -1,0 +1,71 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Heading */
+.header {
+    background: #0056b3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* Topic Name */
+.topic-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Content */
+.content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Explanation */
+.explanation {
+    background: #e6f2ff;
+    padding: 20px;
+    border-left: 5px solid #0056b3;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Embedded Video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border-radius: 8px;
+}

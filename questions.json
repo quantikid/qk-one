@@ -1,0 +1,61 @@
+[  {
+        "id": 11,
+        "question": "Which algorithm is widely used in training deep learning models?",
+        "options": ["Gradient Descent", "Binary Search", "Bubble Sort", "Breadth-First Search"],
+        "answer": "Gradient Descent"
+    },
+    {
+        "id": 12,
+        "question": "What is the main goal of reinforcement learning in AI?",
+        "options": ["To classify images", "To predict trends", "To maximize cumulative reward", "To store data"],
+        "answer": "To maximize cumulative reward"
+    },
+    {
+        "id": 13,
+        "question": "Which term describes the ability of a model to perform well on new, unseen data?",
+        "options": ["Overfitting", "Generalization", "Memorization", "Underfitting"],
+        "answer": "Generalization"
+    },
+    {
+        "id": 14,
+        "question": "Which AI concept is inspired by the structure of the human brain?",
+        "options": ["Neural Networks", "Decision Trees", "Support Vector Machines", "Random Forests"],
+        "answer": "Neural Networks"
+    },
+    {
+        "id": 15,
+        "question": "What type of AI learning uses unlabeled data?",
+        "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Hybrid Learning"],
+        "answer": "Unsupervised Learning"
+    },
+    {
+        "id": 16,
+        "question": "Which of the following is an example of Natural Language Processing?",
+        "options": ["Object detection", "Speech-to-text conversion", "Image segmentation", "Path planning"],
+        "answer": "Speech-to-text conversion"
+    },
+    {
+        "id": 17,
+        "question": "Which of these companies is most known for developing the AI model ChatGPT?",
+        "options": ["OpenAI", "Facebook", "IBM", "Tesla"],
+        "answer": "OpenAI"
+    },
+    {
+        "id": 18,
+        "question": "What is a common problem when a model fits training data too closely?",
+        "options": ["Generalization", "Overfitting", "Normalization", "Underfitting"],
+        "answer": "Overfitting"
+    },
+    {
+        "id": 19,
+        "question": "What is an epoch in the context of training a neural network?",
+        "options": ["A type of neural unit", "A learning rate parameter", "One complete pass through the training dataset", "A type of optimization function"],
+        "answer": "One complete pass through the training dataset"
+    },
+    {
+        "id": 20,
+        "question": "Which of the following is a popular framework for deep learning?",
+        "options": ["TensorFlow", "Excel", "Flask", "MongoDB"],
+        "answer": "TensorFlow"
+    }
+]

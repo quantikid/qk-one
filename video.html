@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+    header {
+        background: #6c5ce7;
+        color: #fff;
+        text-align: center;
+        padding: 1rem 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        position: relative; /* Enable positioning for child elements */
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+        .back-button {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #fff;
+            color: #003366;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+        }
+
+        .back-button:hover {
+            background: #003366;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        nav {
+        display: flex;
+        justify-content: center;
+        background: #4834d4;
+        }
+
+        nav a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        display: block;
+        transition: background 0.3s;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+        .videos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .video {
+            flex: 1 1 calc(20% - 20px);
+            max-width: calc(20% - 20px);
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .video iframe {
+            width: 100%;
+            height: 150px;
+        }
+        .video h3 {
+            font-size: 1rem;
+            margin: 10px;
+        }
+        @media (max-width: 768px) {
+            .video {
+                flex: 1 1 calc(45% - 20px);
+                max-width: calc(45% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .video {
+                flex: 1 1 calc(100% - 20px);
+                max-width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button class="back-button" onclick="window.history.back()">&#8592; Back</button>
+        <h1>Video Gallery</h1>
+    </header>
+    <nav>
+    <a href="#type1">AI</a>
+    </nav>
+
+    <div class="container">
+        <!-- Category 1 -->
+        <div class="category" id="type1">
+            <h2>Artificial Intelligence</h2>
+            <div class="videos">
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/Os5C6fobuCk?si=Z_cyAwsVlvikBziR" frameborder="0" allowfullscreen></iframe>
+                    <h3>Uniform Cost Search vs Dijkstra’s Algorithm | Key Differences & Similarities Explained</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/Knyv5mpo6E0?si=3w6Qkke-5B-4SO6b" frameborder="0" allowfullscreen></iframe>
+                    <h3>Dijkstra's Algorithm working explained in 4 minutes</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/OCrOWlCAA0g?si=ShkCoKhobvDw1aCV" frameborder="0" allowfullscreen></iframe>
+                    <h3>Uniform Cost Search | Working Analysis</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/IjIgia-FMrU?si=h07niNAP2FljniEA" frameborder="0" allowfullscreen></iframe>
+                    <h3>Uniform Cost Search | Detailed Analysis</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/VDGBr6rehAg?si=KEAGMpiE9zn1DqEr" frameborder="0" allowfullscreen></iframe>
+                    <h3>Depth First Search | Explained</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/GeluWnuh5AU?si=22Q5fSIKNvHg84Qr" frameborder="0" allowfullscreen></iframe>
+                    <h3>Breadth First Search | Algorithm & Working | Applications</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/PKg9gYlFyRY?si=34eCJlKXRQ_JNJUl" frameborder="0" allowfullscreen></iframe>
+                    <h3>Breadth First Search | Explained</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/EhAt5_07pkQ?si=ho24ZoaLLSexiYjn" frameborder="0" allowfullscreen></iframe>
+                    <h3>Uninformed Search in AI</h3>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/EhAt5_07pkQ?si=dz9oKabORPRDjYXq" frameborder="0" allowfullscreen></iframe>
+                    <h3>Concept of State in AI</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
